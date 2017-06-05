@@ -12,7 +12,6 @@ import kr.or.connect.todo.domain.Todo;
 public class TodoService {
 	
 	private TodoDao dao;
-	//List<Todo> todos = null;
 
 	public TodoService(TodoDao dao) {
 		this.dao = dao;
